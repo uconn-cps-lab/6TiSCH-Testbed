@@ -1,0 +1,102 @@
+Expression	Value	Location	Type	
+ULPSMAC_Dbg	<struct>	0x20002810	ULPSMAC_DBG_s	
+TSCH_MACConfig	<struct>	0x20003ED8	TSCH_MAC_CONFIG_t	
+macTxPktParam	<struct>	0x11001CAC	macTxPacketParam_t	
+packet_sent_asn_sensors	62663	0x110001BA	uint16_t	
+packet_sent_asn_ping	47931	0x110001BC	uint16_t	
+uipPakcets	<array>	0x20002BB4	struct structUipPacket [2]	
+TSCH_MAC_Pib	<struct>	0x20003F58	TSCH_MAC_PIB_t	
+received_asn	63281	0x20004158	uint16_t	
+macRxPktParam	<struct>	0x11001C38	macRxPacketParam_t	
+buflen	80	0x20003A9A	uint16_t	
+srcipaddr_short	19	0x200046A3	uint8_t	
+*usmBufBeaconTx	<struct>	0x110004C0	BM_BUF_t	
+db_hnd	<struct>	0x20000208	TSCH_DB_handle_t	
+mac_asn	<array>"¯÷®."	0x20000208	uint8_t[5]	
+join_priority	'\a' (0x07)	0x2000020D	uint8_t	
+mac_disconnect_time	255	0x2000020E	uint16_t	
+num_of_slotframes	'.' (0x02)	0x20000210	uint8_t	
+num_tk_entries	'\0' (0x00)	0x20000211	uint8_t	
+is_pan_coord	'\0' (0x00)	0x20000212	uint8_t	
+tsch_locked	'\0' (0x00)	0x20000213	uint8_t	
+tsch_started	'.' (0x01)	0x20000214	uint8_t	
+tsch_sync_inited	'.' (0x01)	0x20000215	uint8_t	
+channel_hopping	<array>	0x20000218	TSCH_DB_channel_hopping_t[1]	
+timeslot_template	<struct>	0x20000330	TSCH_DB_timeslot_template_t	
+slotframes	<array>	0x2000034C	TSCH_DB_slotframe_t[1]	
+keepalive	<struct>	0x20000360	TSCH_DB_ti_keepalive_t	
+in_use	'.' (0x01)	0x20000360	uint8_t	
+ka_ct	500000	0x20000364	clock_time_t	
+usm_buf	0x1100043A (BM_BUF_memb_mem + 134)	0x20000368	BM_BUF_t *	
+vals	<struct>	0x2000036C	TSCH_PIB_ti_keepalive_t	
+adv_entries	<array>	0x20000370	TSCH_DB_adv_entry_t[4]	
+scheduleMsg	<array>""	0x20003CCC	uint8_t[69]	
+[0]	'\0' (0x00)	0x20003CCC	uint8_t	
+[1]	'.' (0x04)	0x20003CCD	uint8_t	
+[2]	'.' (0x04)	0x20003CCE	uint8_t	
+[3]	'\0' (0x00)	0x20003CCF	uint8_t	
+[4]	'\0' (0x00)	0x20003CD0	uint8_t	
+[5]	'.' (0x06)	0x20003CD1	uint8_t	
+[6]	'\0' (0x00)	0x20003CD2	uint8_t	
+[7]	'.' (0x01)	0x20003CD3	uint8_t	
+[8]	'\0' (0x00)	0x20003CD4	uint8_t	
+[9]	'\0' (0x00)	0x20003CD5	uint8_t	
+[10]	'\0' (0x00)	0x20003CD6	uint8_t	
+[11]	'.' (0x01)	0x20003CD7	uint8_t	
+[12]	'\0' (0x00)	0x20003CD8	uint8_t	
+[13]	'\v' (0x0B)	0x20003CD9	uint8_t	
+[14]	'\0' (0x00)	0x20003CDA	uint8_t	
+[15]	'ÿ' (0xFF)	0x20003CDB	uint8_t	
+[16]	'ÿ' (0xFF)	0x20003CDC	uint8_t	
+[17]	'\0' (0x00)	0x20003CDD	uint8_t	
+[18]	'.' (0x01)	0x20003CDE	uint8_t	
+[19]	'\0' (0x00)	0x20003CDF	uint8_t	
+[20]	'.' (0x01)	0x20003CE0	uint8_t	
+[21]	'\0' (0x00)	0x20003CE1	uint8_t	
+[22]	'.' (0x03)	0x20003CE2	uint8_t	
+[23]	'\0' (0x00)	0x20003CE3	uint8_t	
+[24]	'.' (0x12)	0x20003CE4	uint8_t	
+[25]	'\0' (0x00)	0x20003CE5	uint8_t	
+[26]	'.' (0x01)	0x20003CE6	uint8_t	
+[27]	'\0' (0x00)	0x20003CE7	uint8_t	
+[28]	'\f' (0x0C)	0x20003CE8	uint8_t	
+[29]	'\0' (0x00)	0x20003CE9	uint8_t	
+[30]	'\0' (0x00)	0x20003CEA	uint8_t	
+[31]	'\t' (0x09)	0x20003CEB	uint8_t	
+[32]	'.' (0x01)	0x20003CEC	uint8_t	
+[33]	'\b' (0x08)	0x20003CED	uint8_t	
+[34]	'.' (0x05)	0x20003CEE	uint8_t	
+[35]	'.' (0x02)	0x20003CEF	uint8_t	
+[36]	'\0' (0x00)	0x20003CF0	uint8_t	
+[37]	';' (0x3B)	0x20003CF1	uint8_t	
+[38]	'\0' (0x00)	0x20003CF2	uint8_t	
+[39]	'.' (0x01)	0x20003CF3	uint8_t	
+[40]	'\0' (0x00)	0x20003CF4	uint8_t	
+[41]	'ÿ' (0xFF)	0x20003CF5	uint8_t	
+[42]	'ÿ' (0xFF)	0x20003CF6	uint8_t	
+[43]	'\0' (0x00)	0x20003CF7	uint8_t	
+[44]	'\n' (0x0A)	0x20003CF8	uint8_t	
+[45]	'\0' (0x00)	0x20003CF9	uint8_t	
+[46]	'.' (0x01)	0x20003CFA	uint8_t	
+[47]	'\0' (0x00)	0x20003CFB	uint8_t	
+[48]	'.' (0x04)	0x20003CFC	uint8_t	
+[49]	'\0' (0x00)	0x20003CFD	uint8_t	
+[50]	'p' (0x70)	0x20003CFE	uint8_t	
+[51]	'\0' (0x00)	0x20003CFF	uint8_t	
+[52]	'.' (0x01)	0x20003D00	uint8_t	
+[53]	'\0' (0x00)	0x20003D01	uint8_t	
+[54]	'\f' (0x0C)	0x20003D02	uint8_t	
+[55]	'\0' (0x00)	0x20003D03	uint8_t	
+[56]	'\0' (0x00)	0x20003D04	uint8_t	
+[57]	'\0' (0x00)	0x20003D05	uint8_t	
+[58]	'\0' (0x00)	0x20003D06	uint8_t	
+[59]	'\0' (0x00)	0x20003D07	uint8_t	
+[60]	'\0' (0x00)	0x20003D08	uint8_t	
+[61]	'\0' (0x00)	0x20003D09	uint8_t	
+[62]	'\0' (0x00)	0x20003D0A	uint8_t	
+[63]	'\0' (0x00)	0x20003D0B	uint8_t	
+[64]	'\0' (0x00)	0x20003D0C	uint8_t	
+[65]	'\0' (0x00)	0x20003D0D	uint8_t	
+[66]	'\0' (0x00)	0x20003D0E	uint8_t	
+[67]	'\0' (0x00)	0x20003D0F	uint8_t	
+[68]	'\0' (0x00)	0x20003D10	uint8_t	

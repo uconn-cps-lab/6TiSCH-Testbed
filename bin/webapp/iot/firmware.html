@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=8;IE=9;IE=edge" http-equiv="x-ua-compatible">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>IOT</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/oppa_ti_style.css" />
+
+    <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <!--<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>-->
+    <script type="text/javascript" src="lib/jquery.paging.js"></script>
+    
+    <script type="text/javascript" src="lib/bootstrap_3.2.0.min.js"></script>
+    
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1mUCh1_s6Wi31HpO18Gxsft0iv1e1Db0" type="text/javascript"></script>-->
+
+    <script type="text/javascript" src="template3.js"></script>
+  </head>
+
+  <body>
+    <div id="main_container" class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-2 text-center logo"><span class="logo_text">I3-Mesh</span></div>
+        <div class="col-xs-10 text-right"><div class="tilogo"></div></div>
+      </div>
+      <div id="content" class="row content">
+        <div id="navbar" class="col-xs-2 navbar">
+          <a href="list.html">
+            <div class="nav_element primary nav_nodes">
+              Nodes<div id="num_nodes" class="quantity">0</div>
+            </div>
+          </a>
+          
+          <div id="groups"></div>
+          
+          <div id="manage" class="nav_element primary nav_manage">
+            Manage
+          </div>
+
+          <div id="manage_targets"></div>
+
+          <a href="firmware.html">
+            <div class="nav_element">
+              Firmware
+            </div>
+          </a>
+          <a href="about.html">
+            <div class="nav_element">
+              About
+            </div>
+          </a>
+        </div>
+
+        <div id="main" class="col-xs-10 main">
+          <div class="row">
+            <div class="col-xs-12 heading">
+              I3-Mesh: Firmware
+            </div>
+          </div>
+          
+          <br />
+          
+          <div class="row">
+            <div class="col-xs-12">
+              
+              <div id="firmware_update">
+                <form id="firmware" action="/fw" method="post" enctype="multipart/form-data">
+                <div class="row">
+                  <div class="col-xs-3 text-right">
+                    <label for="select_node">Node(s)</label>
+                  </div>
+                  <div class="col-xs-5">
+                    <select id="select_node" name="nodes" class="form-control" size="10" multiple></select>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="config_details">
+                      Select the nodes to be updated.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-xs-3 text-right">
+                    <label for="file">File</label>
+                  </div>
+                  <div class="col-xs-5">
+                    <input type="file" id="file" name="file" accept=".zip">
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="config_details">
+                      Select the [firmware].zip file.
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-xs-push-3 col-xs-6 col-xs-pull-3">
+                    <div class="text-center">
+                      <input type="submit" value="Update" />
+                    </div>
+                  </div>
+                </div>
+
+                </form>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- content -->
+      <div class="row footer">&copy; Copyright Texas Instruments Incorporated. All rights reserved.</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+var iot = iot || { };
+
+jQuery(document).ready(function() {
+  iot.get_status = function(type, value) {
+    switch (type) {
+      /* eventually this needs to be replaced with a fallthrough block
+       * based upon the values gathered from the other sensors
+       */
+      case 'status':
+        switch (value) {
+          case 0:
+            return "<span class=\"fa fa-circle gridicon status_ok\"></span>";
+          case -1:
+            return "<span class=\"fa fa-circle gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-circle gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-circle gridicon status_inactive\"></span>";
+        }
+      case 'temperature':
+        switch (value) {
+          case 0:
+            return "<span class=\"fa fa-fire gridicon status_ok\"></span>";
+          case -1:
+            return "<span class=\"fa fa-fire gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-fire gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-fire gridicon status_inactive\"></span>";
+        }
+      case 'lumenosity':
+        switch (value) {
+          case 0:
+            return "<span class=\"fa fa-lightbulb-o gridicon status_ok\"></span>";
+          case -1:
+            return "<span class=\"fa fa-lightbulb-o gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-lightbulb-o gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-lightbulb-o gridicon status_inactive\"></span>";
+        }
+      case 'sound':
+        switch (value) {
+          case 0:
+            return "<span class=\"fa fa-volume-up gridicon status_ok\"></span>";
+          case -1:
+            return "<span class=\"fa fa-volume-up gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-volume-up gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-volume-up gridicon status_inactive\"></span>";
+        }
+      case 'humidity':
+        switch (value) {
+          case 0:
+            return "<span class=\"fa fa-tint gridicon status_ok\"></span>";
+          case -1:
+            return "<span class=\"fa fa-tint gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-tint gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-tint gridicon status_inactive\"></span>";
+        }
+      case 'motion':
+        switch (value) {
+          case 0:
+            return "<span class=\"fa fa-cogs gridicon status_ok\"></span>";
+          case -1:
+            return "<span class=\"fa fa-cogs gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-cogs gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-cogs gridicon status_inactive\"></span>";
+        }
+      case 'actuator_light':
+        switch (value) {
+          case 1:
+            return "<span class=\"fa fa-toggle-on gridicon status_ok\"></span>";
+          case 0:
+            return "<span class=\"fa fa-toggle-off gridicon status_inactive\"></span>";
+          case -1:
+            return "<span class=\"fa fa-toggle-off gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-toggle-off gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-toggle-off gridicon status_inactive\"></span>";
+        }
+      case 'actuator_gpio':
+        switch (value) {
+          case 1:
+            return "<span class=\"fa fa-toggle-on gridicon status_ok\"></span>";
+          case 0:
+            return "<span class=\"fa fa-toggle-off gridicon status_inactive\"></span>";
+          case -1:
+            return "<span class=\"fa fa-toggle-off gridicon status_warn\"></span>";
+          case -2:
+            return "<span class=\"fa fa-toggle-off gridicon status_error\"></span>";
+          default:
+            return "<span class=\"fa fa-toggle-off gridicon status_inactive\"></span>";
+        }
+      default:
+        break;
+    }
+  };
+
+
+  $.ajax({
+	url:'/nwk/
+  });
+
+  $.ajax({
+    url: "/nwk/1c:ba:8c:e6:9e:dd/node",
+    fail: function(d) {
+      console.log("fail");
+    },
+    error: function(d) {
+      console.log("error");
+    },
+    success: function(d) {
+      iot.node_info = d;
+//      console.log(iot.node_info);
+
+      $("#paginator").paging(iot.node_info.length, {
+        format: '< nncnn! >',
+        perpage: 10,
+        lapping: 0,
+        page: 1,
+        onSelect: function(page) {
+          var buf = "";
+
+          buf += "<table>";
+          buf += "<tr class=\"grid_header grid_row\">";
+          buf += "<td>Group</td>";
+          buf += "<td>Status</td>";
+          buf += "<td>Node</td>";
+          buf += "<td>Sensors</td>";
+          buf += "<td>Power</td>";
+          buf += "<td>Actuator</td>";
+          buf += "</tr>";
+
+          for (var i = (page * 10) - 10; i < (page * 10); i++) {
+            if (!iot.node_info[i])
+              break;
+
+            buf += "<tr class=\"grid_row\">";
+
+            buf += "<td>"; /* group */
+            buf += iot.node_info[i]["group_name"];
+            buf += "</td>"; /* group */
+
+            buf += "<td>"; /* status */
+            buf += '<table><tr><td>';
+            buf += iot.get_status('status', iot.node_info[i]["status"]);
+            buf += '</td></tr><tr><td class="grid_info">';
+            buf += Math.round(((Date.now() - (iot.node_info[i]["timestamp"])) / 1000 / 60)) + ' min ago';
+            buf += '</td></tr></table>';
+            buf += '</td>'; /* status */
+
+            buf += "<td>"; /* nodes */
+            buf += '<table><tr><td>';
+            buf += iot.node_info[i]["name"] + ' - ' + iot.node_info[i]["osv"];
+            buf += '</td></tr><tr><td class="grid_info">';
+            buf += iot.node_info[i]["id"] + ' - Parent ID: ' + iot.node_info[i]["parent_id"];
+            buf += '</td></tr></table>';
+            buf += "</td>";
+
+            buf += "<td>"; /* sensors */
+            buf += '<table><tr><td>';
+            buf += iot.get_status('temperature', iot.node_info[i]["temperature"]);
+            buf += '</td><td>';
+            buf += iot.get_status('lumenosity', iot.node_info[i]["lumenosity"]);
+            buf += '</td><td>';
+            buf += iot.get_status('sound', iot.node_info[i]["sound"]);
+            buf += '</td><td>';
+            buf += iot.get_status('humidity', iot.node_info[i]["humidity"]);
+            buf += '</td><td>';
+            buf += iot.get_status('motion', iot.node_info[i]["motion"]);
+            buf += '</td></tr><tr><td class="grid_info">';
+            buf += 'Temp.';
+            buf += '</td><td class="grid_info">';
+            buf += 'Brightness';
+            buf += '</td><td class="grid_info">';
+            buf += 'Sound';
+            buf += '</td><td class="grid_info">';
+            buf += 'Humidity';
+            buf += '</td><td class="grid_info">';
+            buf += 'Motion';
+            buf += '</td></tr></table>';
+            buf += "</td>"; /* sensors */
+
+            buf += "<td>"; /* power */
+            buf += iot.node_info[i]["power"] + '%';
+            buf += "</td>"; /* power */
+
+            buf += "<td>"; /* actuator */
+            buf += '<table><tr><td>';
+            buf += iot.get_status('actuator_light', iot.node_info[i]["actuator_light"]);
+            buf += '</td><td>';
+            buf += iot.get_status('actuator_gpio', iot.node_info[i]["actuator_gpio"]);
+            buf += '</td></tr><tr><td class="grid_info">';
+            buf += 'Light';
+            buf += '</td><td class="grid_info">';
+            buf += 'GPIO';
+            buf += '</td></tr></table>';
+            buf += "</td>"; /* actuator */
+
+            buf += "</tr>";
+          }
+
+          buf += "</table>";
+
+//          console.log(buf);
+
+          $("#grid").html(buf);
+        },
+        onFormat: function(type) {
+          switch (type) {
+            case 'block':
+              return '<a href="#"><span class=pagenum">' + this.value + '</span></a>';
+            case 'next':
+              return '<a href="#"><span class=pagenum">&gt;</span></a>';
+            case 'prev':
+              return '<a href="#"><span class=pagenum">&lt;</span></a>';
+            case 'first':
+              return '<a href="#"><span class=pagenum">First</span></a>';
+            case 'last':
+              return '<a href="#"><span class=pagenum">Last</span></a>';
+            default:
+              return '<a href="#"><span class=pagenum">?</span></a>';
+          }
+        }
+      });
+    }
+  });
+});

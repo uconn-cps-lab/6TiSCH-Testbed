@@ -1,0 +1,950 @@
+[
+    {
+        "_id": 1,
+        "address": "2001:db8:1234:ffff::ff:fe00:1",
+        "eui64": "gateway",
+        "candidate": [],
+        "lifetime": 65535,
+        "capacity": 65535,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066469,
+                -72.2528862
+            ],
+            "power": "USB",
+            "type": "LaunchPad"
+        }
+    },
+    {
+        "_id": 3,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0003",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2d-cd",
+        "capacity": 16,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.806749,
+                -72.2526929
+            ],
+            "power": "USB",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 4,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0004",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0c-46-bb-80",
+        "capacity": 12,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.806528,
+                -72.2527424
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 5,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0005",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-66-39-82",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065921,
+                -72.2526517
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 6,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0006",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-31-fc",
+        "capacity": 8,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067537,
+                -72.2526852
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 7,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0007",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0c-46-b6-87",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065796,
+                -72.2526725
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 8,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0008",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-ae-03",
+        "capacity": 8,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067009,
+                -72.2526635
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 9,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0009",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-90-87",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065346,
+                -72.2527443
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 10,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:000a",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-07-9f-e0-83",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065651,
+                -72.252696
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 11,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:000b",
+        "parent": 1,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-29-51",
+        "capacity": 8,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066992,
+                -72.2527563
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "gateway"
+        }
+    },
+    {
+        "_id": 12,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:000c",
+        "parent": 5,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-fc-85",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066812,
+                -72.2527858
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-66-39-82"
+        }
+    },
+    {
+        "_id": 13,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:000d",
+        "parent": 3,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-29-f4",
+        "capacity": 12,
+        "lifetime": 102,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8064941,
+                -72.2527411
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-66-39-82"
+        }
+    },
+    {
+        "_id": 14,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:000e",
+        "parent": 6,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-27-6f",
+        "capacity": 4,
+        "lifetime": 109,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065236,
+                -72.2527617
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-29-51"
+        }
+    },
+    {
+        "_id": 15,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:000f",
+        "parent": 7,
+        "candidate": [],
+        "eui64": "00-12-4b-00-11-a7-29-06",
+        "capacity": 4,
+        "lifetime": 94,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.806654,
+                -72.2526113
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-90-87"
+        }
+    },
+    {
+        "_id": 16,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0010",
+        "parent": 4,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0c-46-bc-02",
+        "capacity": 4,
+        "lifetime": 94,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8064883,
+                -72.2527344
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2d-cd"
+        }
+    },
+    {
+        "_id": 17,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0011",
+        "parent": 6,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2c-90",
+        "capacity": 4,
+        "lifetime": 108,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065546,
+                -72.2527121
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-07-9f-e0-83"
+        }
+    },
+    {
+        "_id": 18,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0012",
+        "parent": 11,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-ed-03",
+        "capacity": 4,
+        "lifetime": 102,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066066,
+                -72.2526296
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-0c-46-bb-80"
+        }
+    },
+    {
+        "_id": 19,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0013",
+        "parent": 11,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2f-a5",
+        "capacity": 4,
+        "lifetime": 102,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066959,
+                -72.2526582
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2d-cd"
+        }
+    },
+    {
+        "_id": 20,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0014",
+        "parent": 3,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0c-67-01-82",
+        "capacity": 4,
+        "lifetime": 103,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065147,
+                -72.2527639
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-90-87"
+        }
+    },
+    {
+        "_id": 21,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0015",
+        "parent": 4,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-66-2f-83",
+        "capacity": 8,
+        "lifetime": 94,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067294,
+                -72.2526951
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-07-9f-e0-83"
+        }
+    },
+    {
+        "_id": 22,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0016",
+        "parent": 9,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-25-ad",
+        "capacity": 4,
+        "lifetime": 120,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065706,
+                -72.2526873
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-0c-46-bb-80"
+        }
+    },
+    {
+        "_id": 23,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0017",
+        "parent": 8,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0c-46-db-81",
+        "capacity": 4,
+        "lifetime": 107,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065198,
+                -72.2527334
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2d-cd"
+        }
+    },
+    {
+        "_id": 24,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0018",
+        "parent": 15,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0c-67-77-84",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067244,
+                -72.2526897
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-29-f4"
+        }
+    },
+    {
+        "_id": 25,
+        "address": "2001:db8:1234:ffff::ff:fe00:19",
+        "parent": 18,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-04-dc-9b",
+        "capacity": 4,
+        "lifetime": 0,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066116,
+                -72.2526209
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-fc-85"
+        }
+    },
+    {
+        "_id": 26,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:001a",
+        "parent": 13,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-04-dd-62",
+        "capacity": 8,
+        "lifetime": 99,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065451,
+                -72.2527282
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2c-90"
+        }
+    },
+    {
+        "_id": 27,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:001b",
+        "parent": 16,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2c-8f",
+        "capacity": 4,
+        "lifetime": 95,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066595,
+                -72.252618
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-29-f4"
+        }
+    },
+    {
+        "_id": 28,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:001c",
+        "parent": 21,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-f0-85",
+        "capacity": 4,
+        "lifetime": 106,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065836,
+                -72.2526665
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-fc-85"
+        }
+    },
+    {
+        "_id": 29,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:001d",
+        "parent": 14,
+        "candidate": [],
+        "eui64": "00-12-4b-00-13-22-7e-04",
+        "capacity": 4,
+        "lifetime": 97,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067064,
+                -72.2526696
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2c-90"
+        }
+    },
+    {
+        "_id": 30,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:001e",
+        "parent": 15,
+        "candidate": [],
+        "eui64": "00-12-4b-00-0d-6b-22-83",
+        "capacity": 4,
+        "lifetime": 113,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8064821,
+                -72.2527277
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2c-90"
+        }
+    },
+    {
+        "_id": 31,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:001f",
+        "parent": 14,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2a-24",
+        "capacity": 4,
+        "lifetime": 98,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8064832,
+                -72.2527036
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2c-90"
+        }
+    },
+    {
+        "_id": 32,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0020",
+        "parent": 13,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-29-5c",
+        "capacity": 4,
+        "lifetime": 99,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065066,
+                -72.2527548
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-fc-85"
+        }
+    },
+    {
+        "_id": 33,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0021",
+        "parent": 22,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2c-e8",
+        "capacity": 4,
+        "lifetime": 94,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066862,
+                -72.2527778
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-0c-67-01-82"
+        }
+    },
+    {
+        "_id": 34,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0022",
+        "parent": 23,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-e5-02",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067199,
+                -72.2526847
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-29-f4"
+        }
+    },
+    {
+        "_id": 35,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0023",
+        "parent": 21,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-66-2b-02",
+        "capacity": 4,
+        "lifetime": 106,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8066764,
+                -72.2527942
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2f-a5"
+        }
+    },
+    {
+        "_id": 36,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0024",
+        "parent": 23,
+        "candidate": [],
+        "eui64": "00-12-4b-00-11-a7-17-86",
+        "capacity": 4,
+        "lifetime": 114,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8064958,
+                -72.2527059
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-66-2f-83"
+        }
+    },
+    {
+        "_id": 37,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0025",
+        "parent": 20,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-28-73",
+        "capacity": 4,
+        "lifetime": 103,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065746,
+                -72.2526799
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-0c-46-bc-02"
+        }
+    },
+    {
+        "_id": 38,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0026",
+        "parent": 19,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-65-99-86",
+        "capacity": 4,
+        "lifetime": 119,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065396,
+                -72.2527369
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-66-2f-83"
+        }
+    },
+    {
+        "_id": 39,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0027",
+        "parent": 32,
+        "candidate": [],
+        "eui64": "00-12-4b-00-16-66-2c-07",
+        "capacity": 4,
+        "lifetime": 97,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065496,
+                -72.2527201
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-29-5c"
+        }
+    },
+    {
+        "_id": 40,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0028",
+        "parent": 32,
+        "candidate": [],
+        "eui64": "00-12-4b-00-07-a8-1e-07",
+        "capacity": 4,
+        "lifetime": 96,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065415,
+                -72.2526788
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-04-dc-9b"
+        }
+    },
+    {
+        "_id": 41,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0029",
+        "parent": 28,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-2a-13",
+        "capacity": 4,
+        "lifetime": 96,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067272,
+                -72.2527103
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-e5-02"
+        }
+    },
+    {
+        "_id": 42,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:002a",
+        "parent": 26,
+        "candidate": [],
+        "eui64": "00-12-4b-00-07-bb-55-87",
+        "capacity": 4,
+        "lifetime": 117,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065596,
+                -72.252704
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2c-8f"
+        }
+    },
+    {
+        "_id": 43,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:002b",
+        "parent": 34,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-04-da-c7",
+        "capacity": 4,
+        "lifetime": 105,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067154,
+                -72.2526796
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-e5-02"
+        }
+    },
+    {
+        "_id": 44,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:002c",
+        "parent": 37,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-24-02",
+        "capacity": 4,
+        "lifetime": 105,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065291,
+                -72.252753
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-16-65-f0-85"
+        }
+    },
+    {
+        "_id": 45,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:002d",
+        "parent": 38,
+        "candidate": [],
+        "eui64": "00-12-4b-00-07-a9-01-81",
+        "capacity": 4,
+        "lifetime": 106,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065881,
+                -72.2526591
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-04-dc-9b"
+        }
+    },
+    {
+        "_id": 46,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:002e",
+        "parent": 37,
+        "candidate": [],
+        "eui64": "00-12-4b-00-11-a7-18-82",
+        "capacity": 4,
+        "lifetime": 104,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.806642,
+                -72.2525982
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2c-e8"
+        }
+    },
+    {
+        "_id": 47,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:002f",
+        "parent": 31,
+        "candidate": [],
+        "eui64": "00-12-4b-00-13-22-a9-02",
+        "capacity": 4,
+        "lifetime": 117,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067337,
+                -72.2526997
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-04-dd-62"
+        }
+    },
+    {
+        "_id": 48,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0030",
+        "parent": 47,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-04-dd-6f",
+        "capacity": 4,
+        "lifetime": 104,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067535,
+                -72.2527154
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-11-a7-18-82"
+        }
+    },
+    {
+        "_id": 49,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0031",
+        "parent": 41,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-04-e3-2f",
+        "capacity": 4,
+        "lifetime": 100,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8065155,
+                -72.2526852
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-24-02"
+        }
+    },
+    {
+        "_id": 50,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0032",
+        "parent": 47,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-04-dc-90",
+        "capacity": 4,
+        "lifetime": 105,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.80675,
+                -72.25271
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-11-a7-18-82"
+        }
+    },
+    {
+        "_id": 51,
+        "address": "2001:0db8:1234:ffff:0000:00ff:fe00:0033",
+        "parent": 40,
+        "candidate": [],
+        "eui64": "00-12-4b-00-12-05-31-58",
+        "capacity": 4,
+        "lifetime": 105,
+        "beacon_state": "beacon on",
+        "meta": {
+            "gps": [
+                41.8067575,
+                -72.2527211
+            ],
+            "power": "battery",
+            "type": "SensorTag",
+            "parent": "00-12-4b-00-12-05-2a-13"
+        }
+    }
+]

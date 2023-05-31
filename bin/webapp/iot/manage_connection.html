@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=8;IE=9;IE=edge" http-equiv="x-ua-compatible">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>IOT</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/oppa_ti_style.css" />
+
+    <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="lib/jquery.paging.js"></script>
+    
+    <script type="text/javascript" src="lib/bootstrap_3.2.0.min.js"></script>
+
+    <script type="text/javascript" src="connection.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-2 text-center logo"><span class="logo_text">I3-Mesh</span></div>
+        <div class="col-xs-10 text-right"><div class="tilogo"></div></div>
+      </div>
+      <div id="content" class="row content">
+        <div id="navbar" class="col-xs-2 navbar">
+          <a href="list.html">
+            <div class="nav_element primary">
+              Nodes
+            </div>
+          </a>
+          <div id="groups">
+            <a href="#">
+              <div class="nav_element">
+                Group 1
+              </div>
+            </a>
+          </div>
+          <a href="connection.html">
+            <div class="nav_element">
+              Manage
+            </div>
+          </a>
+          
+          <a href="firmware.html">
+            <div class="nav_element">
+              Firmware
+            </div>
+          </a>
+          <a href="about.html">
+            <div class="nav_element">
+              About
+            </div>
+          </a>
+        </div>
+
+        <div id="main" class="col-xs-10 main">
+
+          <div class="heading row">
+            <div class="col-xs-12">
+              Manage: Connection Configuration
+            </div>
+          </div>
+
+          <br />
+
+          <div id="config_connection">
+          <form action="#">
+            <div class="row">
+              <div class="col-xs-2 text-right">
+                <label for="link_address">Server Address: </label>
+              </div>
+              <div class="col-xs-8">
+                <input type="text" id="link_address" name="link_address" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 text-right">
+                <label for="link_port">Server Port: </label>
+              </div>
+              <div class="col-xs-8">
+                <input type="text" id="link_address" name="link_address" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 text-right">
+                <label for="link_url">Root URL: </label>
+              </div>
+              <div class="col-xs-8">
+                <input type="text" id="link_url" name="link_url" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 text-right">
+                <label for="link_proxy_port">Proxy Port: </label>
+              </div>
+              <div class="col-xs-8">
+                <input type="text" id="link_proxy_port" name="link_proxy_port" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 text-right">
+                <label for="link_version">API Version: </label>
+              </div>
+              <div class="col-xs-8 form_control">
+                <select id="link_version" name="link_version" class="dropdown">
+                  <option value="1" selected="selected">1</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-2 text-right">
+                <label for="link_keys">API Keys: </label>
+              </div>
+              <div class="col-xs-8">
+                <input type="text" id="link_keys" name="link_keys" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-10">
+                <div class="text-center">
+                  <input type="submit" value="Save" />
+                </div>
+              </div>
+            </div>
+          </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="row footer">&copy; Copyright Texas Instruments Incorporated. All rights reserved.</div>
+    </div>
+  </body>
+</html>

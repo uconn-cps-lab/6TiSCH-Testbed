@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+#diagnosis_info table {
+    font-size:0.75em;
+}
+#diagnosis_info tr {
+    height:unset;
+}
+#diagnosis_info td {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+</style>
+    <meta content="IE=8;IE=9;IE=edge" http-equiv="x-ua-compatible">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>IOT</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/oppa_ti_style.css" />
+
+    <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <!--<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>-->
+    <script type="text/javascript" src="lib/jquery.paging.js"></script>
+    <script type="text/javascript" src="lib/smoothie.js"></script>
+    <script type="text/javascript" src="lib/d3.min.js"></script>
+    
+    <script type="text/javascript" src="lib/bootstrap_3.2.0.min.js"></script>
+
+    <script type="text/javascript" src="details.js"></script>
+    <script src="//maps.google.com/maps/api/js?key=AIzaSyB1mUCh1_s6Wi31HpO18Gxsft0iv1e1Db0"></script>
+    <script type="text/javascript" src="topology-nomap.js"></script>
+  </head>
+
+  <body>
+    <div id="main_container" class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-2 text-center logo"><span class="logo_text">I&sup3;-Mesh</span></div>
+        <div class="col-xs-10 text-right"><div class="tilogo"></div></div>
+      </div>
+      <div id="content" class="row content">
+        <div id="navbar" class="col-xs-2 navbar">
+          <a href="list.html">
+            <div class="nav_element primary nav_nodes">
+              Nodes<div id="num_nodes" class="quantity">0</div>
+            </div>
+          </a>
+
+          <div id="groups"></div>
+          
+          <div id="manage" class="nav_element primary nav_manage">
+            Manage
+          </div>
+
+          <div id="manage_targets"></div>
+          
+          <a href="firmware.html">
+            <div class="nav_element">
+              Firmware
+            </div>
+          </a>
+          <a href="about.html">
+            <div class="nav_element">
+              About
+            </div>
+          </a>
+        </div>
+
+        <div id="main" class="col-xs-10 main">
+          <div class="row">
+            <div class="heading col-xs-12">
+              Node: Details
+            </div>
+          </div>
+
+          <br />
+
+          <div class="row">
+            <div class="col-xs-6">
+              <div id="node_name" class="heading2">
+              Node Name
+              </div>
+            </div>
+            <div class="col-xs-3">
+              
+            </div>
+            <div id="add_to_group" class="col-xs-3 text-right">
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="status_message" class="col-xs-push-2 col-xs-8 col-xs-pull-2 hidden success">
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="info_table" class="col-xs-7 info_table">
+              <table>
+                <tr>
+                  <td class="text-right">
+                    Status
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Short Address
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Long Address
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Manufacturer
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Device
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    EUI-64
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Address
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Parent Address
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    RSSI
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Latency
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    ETX
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">
+                    Operating System
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-xs-5">
+              <div id="topology" class="node_display">
+              </div>
+            </div>
+          </div>
+          
+          <div class="row tabs">
+            <div class="col-xs-12">
+              <div class="tab_header">
+                <div id="tab_sensors" class="tab_button selected">
+                  <div class="fa fa-signal fa-lg tab_icon"></div>
+                  <div class="tab_name">Sensors</div>
+                </div>
+                <div id="tab_power" class="tab_button">
+                  <div class="fa fa-power-off fa-lg tab_icon"></div>
+                  <div class="tab_name">Power</div>
+                </div>
+                <div id="tab_actuator" class="tab_button">
+                  <div class="fa fa-toggle-on fa-lg tab_icon"></div>
+                  <div class="tab_name">Actuator</div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <br />
+          
+          <div id="sensors" class="row">
+            <div class="col-xs-12">
+              <div id="sensor_header" class="sensor_header">
+
+              </div>
+              
+              <div id="sensor_controls" class="sensor_controls">
+                
+              </div>
+              
+              <div id="sensor_content" class="sensor_content">
+                <canvas id="sensor_canvas"></canvas>
+              </div>
+            </div>
+          </div>
+          
+          <div id="power" class="row">
+            <div class="col-xs-12">
+              <div id="power_header" class="power_header">
+                
+              </div>
+              
+              <div id="power_controls" class="power_controls">
+                
+              </div>
+              
+              <div id="power_content" class="power_content">
+                <canvas id="power_canvas"></canvas>
+              </div>
+            </div>
+          </div>
+          
+          <div id="actuator" class="row">
+            <div class="col-xs-12">
+              <div id="actuator_header" class="actuator_header">
+                
+              </div>
+              
+              <div id="actuator_controls" class="actuator_controls">
+                
+              </div>
+              
+              <div id="actuator_content" class="actuator_content">
+              </div>
+            </div>
+          </div>
+          
+          <br />
+          
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row footer">&copy; Copyright Texas Instruments Incorporated. All rights reserved.</div>
+    </div>
+  </body>
+</html>

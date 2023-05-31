@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\coap-cc26xx\CoAP.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lib-gen\lib-gen.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\tsch-LMAC-cc26xx\tsch-LMAC.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

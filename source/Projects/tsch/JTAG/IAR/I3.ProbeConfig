@@ -1,0 +1,17 @@
+; CC26xx (cJTAG+IcePick+Cortex-M3)
+
+;@@Title@@: SimpleLink CC13xx/CC26xx Wireless MCU
+
+;@@JtagInit@@: j.geo 6 4
+;@@JtagInit@@: icp.disable
+;@@JtagInit@@: icp.enable 0 0x302148
+;@@JtagInit@@: j.geo 6 4 4
+
+; Emulator TDI 
+
+"ICEPICK"   BYPASS06
+"CC2650" "Cortex-M3"
+"MSP432" "Cortex-M4"
+; "Cortex-M3"
+
+; End of file

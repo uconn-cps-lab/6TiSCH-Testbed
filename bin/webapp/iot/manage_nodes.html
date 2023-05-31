@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=8;IE=9;IE=edge" http-equiv="x-ua-compatible">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>IOT</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/oppa_ti_style.css" />
+    <link rel="stylesheet" href="css/bootstrap-editable.css" />
+
+    <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <!--<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>-->
+    <script type="text/javascript" src="lib/jquery.paging.js"></script>
+    <!--<script type="text/javascript" src="lib/jquery.jeditable.modified.js"></script>-->
+
+    <script type="text/javascript" src="lib/bootstrap_3.2.0.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap-editable.min.js"></script>
+
+    <script type="text/javascript" src="manage_nodes.js"></script>
+  </head>
+
+  <body>
+    <div id="main_container" class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-2 text-center logo"><span class="logo_text">I3-Mesh</span></div>
+        <div class="col-xs-10 text-right"><div class="tilogo"></div></div>
+      </div>
+      <div id="content" class="row content">
+        <div id="navbar" class="col-xs-2 navbar">
+          <a href="list.html">
+            <div class="nav_element primary nav_nodes">
+              Nodes<div id="num_nodes" class="quantity">0</div>
+            </div>
+          </a>
+          
+          <div id="groups"></div>
+          
+          <div id="manage" class="nav_element primary nav_manage">
+            Manage
+          </div>
+          
+          <div id="manage_targets"></div>
+
+          <a href="firmware.html">
+            <div class="nav_element">
+              Firmware
+            </div>
+          </a>
+          <a href="about.html">
+            <div class="nav_element">
+              About
+            </div>
+          </a>
+        </div>
+
+        <div id="main" class="col-xs-10 main">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="heading">
+                Manage: Nodes
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="status_message" class="col-xs-push-2 col-xs-8 col-xs-pull-2 hidden">
+              
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-6 node_filter">
+              <form>
+                <label for="node_filter">Filter</label>
+                <select id="node_filter" class="dropdown">
+                  <option value="all" selected>All</option>
+                  <option value="new">New</option>
+                  <option value="connected">Connected</option>
+                </select>
+              </form>
+            </div>
+            <div class="col-xs-6">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-12">
+              <div id="node_info" class="node_info">
+
+              </div>
+            </div>
+          </div>
+<!--          
+          <br />
+          
+          <div class="row node_buttons">
+            <div class="col-xs-3">
+              <button type="button" name="refresh">
+                Refresh
+              </button>
+            </div>
+            <div class="col-xs-9">
+              
+            </div>
+          </div>
+          
+          <br />-->
+        </div> <!-- main -->
+
+      </div> <!-- content -->
+      <div class="row footer">&copy; Copyright Texas Instruments Incorporated. All rights reserved.</div>
+    </div>
+  </body>
+</html>

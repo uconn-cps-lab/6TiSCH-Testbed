@@ -1,0 +1,19 @@
+#server fltime.itg.ti.com
+#server sbtime.itg.ti.com
+#server letime.itg.ti.com
+
+#Install ntp
+apt-get install -y ntp
+
+#Adjust server
+sed '/^server/d; /^pool/d; 1s/^/server fltime.itg.ti.com\n/' /etc/ntp.conf > /etc/ntp.conf.new
+mv /etc/ntp.conf.new /etc/ntp.conf
+
+#Restart service
+/etc/init.d/ntp stop
+ntpd -gq
+/etc/init.d/ntp start
+
+#Set local time zone
+rm /etc/localtime
+ln -s /usr/share/zoneinfo/America/Chicago /etc/localtime

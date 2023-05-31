@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=8;IE=9;IE=edge" http-equiv="x-ua-compatible">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>IOT</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/oppa_ti_style.css" />
+
+    <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <!--<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>-->
+    <script type="text/javascript" src="lib/jquery.paging.js"></script>
+    <script type="text/javascript" src="lib/jquery.form.js"></script>
+    
+    <script type="text/javascript" src="lib/bootstrap_3.2.0.min.js"></script>
+
+    <script type="text/javascript" src="setup_gateway.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-xs-2 text-center logo"><span class="logo_text">I3-Mesh</span></div>
+        <div class="col-xs-10 text-right"><div class="tilogo"></div></div>
+      </div>
+      <div class="row content">
+        <div class="col-xs-12 main">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="heading">
+                Getting Started
+              </div>
+            </div>
+          </div>
+          
+          <br />
+          
+          <div class="row">
+            <div class="col-xs-12 message">
+              Let's start by setting up a network.  You can change these settings later if required.
+            </div>
+          </div>
+          
+          <br />
+          
+          <div class="row">
+            <div id="status_message" class="col-xs-push-2 col-xs-8 col-xs-pull-2 hidden">
+              
+            </div>
+          </div>
+          
+          <br />
+          
+          <div class="row">
+            <div class="col-xs-12">
+              <div id="gateway_config">
+                <form id="setup_gateway" action="/config/gw" method="POST">
+                <div class="row">
+                  <div class="col-xs-3 text-right">
+                    <label for="gateway_name">Gateway Name</label>
+                  </div>
+                  <div class="col-xs-6">
+                    <input type="text" id="gateway_name" name="netname" />
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="config_details">
+                      Give your gateway a name.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-xs-3 text-right">
+                    <label for="gateway_gps">Gateway GPS</label>
+                  </div>
+                  <div class="col-xs-6">
+                    <input type="text" id="gateway_gps" name="gps" />
+                  </div>
+                  <div class="col-xs-3">
+                    <div class="config_details">
+                      Latitude, Longitude (Optional)
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row">
+                  <div class="col-xs-3 text-right">
+                    <label>Gateway Setup</label>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="radio_group">
+                      <input id="single_gateway" type="radio" name="gwMultiple" value="0" /><label for="single_gateway">One Gateway</label>
+                    </div>
+                    <div class="radio_group">
+                      <input id="multiple_gateway" type="radio" name="gwMultiple" value="1" /><label for="multiple_gateway">Multiple Gateways</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div id="master_gateway_url">
+                </div>
+                
+                <div class="row">
+                  <div class="col-xs-3 text-right">
+                    <label>Server Location</label>
+                  </div>
+
+                  <div class="col-xs-6">
+                    <div class="radio_group">
+                      <input id="server_local" type="radio" name="appOnER" value="yes" /><label for="server_local">Local</label>
+                    </div>
+
+                    <div class="radio_group">
+                      <input id="server_cloud" type="radio" name="appOnER" value="no" /><label for="server_cloud">Cloud</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div id="server_settings">
+                </div>
+                  
+                <div class="row">
+                  <div class="col-xs-push-3 col-xs-6 col-xs-pull-3">
+                    <div class="text-center">
+                      <input type="submit" value="Save and Continue" />
+                    </div>
+                  </div>
+                </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="row footer">&copy; Copyright Texas Instruments Incorporated. All rights reserved.</div>
+    </div>
+  </body>
+</html>

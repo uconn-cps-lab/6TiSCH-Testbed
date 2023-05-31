@@ -1,0 +1,52 @@
+{
+	"appOnER":"1",
+	"nwkinfo":{
+		"netname":"IoT Gateway",
+		"gps":"48.135, 11.698",
+		"mac":"00:00:00:00:00:00",
+		"type":1,
+		"ver":1,
+		"mla":123456789,
+		"panid":43981,
+		"msa":1,
+		"prefix":"TODO",
+		"gua":"TODO","key":0
+	},
+	"conninfo":{
+		"api_ver":1,
+		"httpServer":"",
+		"httpPort":4730,
+		"mqttPort":1883,
+		"mqttServer":"localhost",
+		"udpPort":5600,
+		"coapPort":5683,
+		"coapTimeout":15,
+		"coapObserve":1,
+		"proxy":"",
+		"nwk":"/"
+	},
+	"scheduler":{
+		"dynamic_schedule":true,
+		"channels":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+		"initial_uplink_period":1,
+		"initial_downlink_period":1,
+		"capacity_per_link": 50
+	},
+	"topology":{
+		"optimizer":false
+	},
+   "vpan_xxx":{
+      "id":56789,
+      "password":"root",
+      "my_url":"0.0.0.0",
+      "peers":
+      [
+         {
+            "ip_address":"0.0.0.0"
+         }
+      ]
+   },
+	"maxNumDbItems":30,
+	"mongDbUrl":"mongodb://amyang.xyz:37017/db"
+}
+

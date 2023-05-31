@@ -1,0 +1,7 @@
+export http_proxy="http://webproxy.ext.ti.com:80/"
+export https_proxy="http://webproxy.ext.ti.com:80/"
+sudo npm config set proxy http://webproxy.ext.ti.com:80/
+sudo npm config set https-proxy http://webproxy.ext.ti.com:80/
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable

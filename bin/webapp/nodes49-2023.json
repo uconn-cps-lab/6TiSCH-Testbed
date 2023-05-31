@@ -1,0 +1,737 @@
+[
+    {
+        "first_appear": 1603212108732,
+        "last_seen": 1603219689076,
+        "gateway": "UCONN_GW",
+        "_id": 1,
+        "address": "2001:db8:1234:ffff::ff:fe00:1",
+        "parent": 0,
+        "eui64": "",
+        "position": {
+            "lat": 41.8066469,
+            "lng": -72.2528862
+        },
+        "type": "LaunchPad",
+        "power": "USB"
+    },
+    {
+        "first_appear": 1603212317392,
+        "last_seen": 1603219123294,
+        "gateway": "UCONN_GW",
+        "_id": 3,
+        "address": "2001:db8:1234:ffff::ff:fe00:1a",
+        "parent": 1,
+        "eui64": "00-12-4b-00-11-a7-21-06",
+        "position": {
+            "lat": 41.8066799,
+            "lng": -72.2529327
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212147811,
+        "last_seen": 1603219288318,
+        "gateway": "UCONN_GW",
+        "_id": 4,
+        "address": "2001:db8:1234:ffff::ff:fe00:9",
+        "parent": 1,
+        "eui64": "00-12-4b-00-0c-66-fe-84",
+        "position": {
+            "lat": 41.8066931,
+            "lng": -72.2529099
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212333620,
+        "last_seen": 1603219586672,
+        "gateway": "UCONN_GW",
+        "_id": 5,
+        "address": "2001:db8:1234:ffff::ff:fe00:49",
+        "parent": 1,
+        "eui64": "00-12-4b-00-0c-65-87-00",
+        "position": {
+            "lat": 41.8066567,
+            "lng": -72.2529242
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212150324,
+        "last_seen": 1603219279402,
+        "gateway": "UCONN_GW",
+        "_id": 6,
+        "address": "2001:db8:1234:ffff::ff:fe00:b",
+        "parent": 1,
+        "eui64": "00-12-4b-00-13-22-5d-81",
+        "position": {
+            "lat": 41.8066817,
+            "lng": -72.2528836
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212196010,
+        "last_seen": 1603219113048,
+        "gateway": "UCONN_GW",
+        "_id": 7,
+        "address": "2001:db8:1234:ffff::ff:fe00:13",
+        "parent": 1,
+        "eui64": "00-12-4b-00-16-65-7f-85",
+        "position": {
+            "lat": 41.8066374,
+            "lng": -72.2529027
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212158470,
+        "last_seen": 1603219280762,
+        "gateway": "UCONN_GW",
+        "_id": 8,
+        "address": "2001:db8:1234:ffff::ff:fe00:11",
+        "parent": 1,
+        "eui64": "00-12-4b-00-0c-61-f1-83",
+        "position": {
+            "lat": 41.8066622,
+            "lng": -72.2528632
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603216148662,
+        "last_seen": 1603219360331,
+        "gateway": "UCONN_GW",
+        "_id": 9,
+        "address": "2001:db8:1234:ffff::ff:fe00:1b",
+        "parent": 1,
+        "eui64": "00-12-4b-00-0c-65-a0-86",
+        "position": {
+            "lat": 41.8066212,
+            "lng": -72.2528847
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212297941,
+        "last_seen": 1603219194734,
+        "gateway": "UCONN_GW",
+        "_id": 10,
+        "address": "2001:db8:1234:ffff::ff:fe00:37",
+        "parent": 1,
+        "eui64": "00-12-4b-00-12-04-da-e9",
+        "position": {
+            "lat": 41.8066317,
+            "lng": -72.2528683
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212224525,
+        "last_seen": 1603219245025,
+        "gateway": "UCONN_GW",
+        "_id": 11,
+        "address": "2001:db8:1234:ffff::ff:fe00:15",
+        "parent": 1,
+        "eui64": "00-12-4b-00-16-65-ec-04",
+        "position": {
+            "lat": 41.8066439,
+            "lng": -72.2528479
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603215863156,
+        "last_seen": 1603219302206,
+        "gateway": "UCONN_GW",
+        "_id": 12,
+        "address": "2001:db8:1234:ffff::ff:fe00:22",
+        "parent": 1,
+        "eui64": "00-12-4b-00-0c-65-8a-86",
+        "position": {
+            "lat": 41.8066527,
+            "lng": -72.2528328
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603215690836,
+        "last_seen": 1603219201949,
+        "gateway": "UCONN_GW",
+        "_id": 13,
+        "address": "2001:db8:1234:ffff::ff:fe00:66",
+        "parent": 1,
+        "eui64": "00-12-4b-00-12-04-dc-88",
+        "position": {
+            "lat": 41.8066624,
+            "lng": -72.252817
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212620597,
+        "last_seen": 1603219111613,
+        "gateway": "UCONN_GW",
+        "_id": 14,
+        "address": "2001:db8:1234:ffff::ff:fe00:34",
+        "parent": 8,
+        "eui64": "00-12-4b-00-13-22-92-83",
+        "position": {
+            "lat": 41.8066717,
+            "lng": -72.2528019
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603218888730,
+        "last_seen": 1603219680410,
+        "gateway": "UCONN_GW",
+        "_id": 15,
+        "address": "2001:db8:1234:ffff::ff:fe00:f",
+        "parent": 8,
+        "eui64": "00-12-4b-00-16-65-fc-85",
+        "position": {
+            "lat": 41.8066812,
+            "lng": -72.2527858
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603218936344,
+        "last_seen": 1603218936344,
+        "gateway": "UCONN_GW",
+        "_id": 16,
+        "address": "2001:db8:1234:ffff::ff:fe00:6f",
+        "parent": 8,
+        "eui64": "00-12-4b-00-12-04-da-da",
+        "position": {
+            "lat": 41.8066907,
+            "lng": -72.2527704
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212145251,
+        "last_seen": 1603219274072,
+        "gateway": "UCONN_GW",
+        "_id": 17,
+        "address": "2001:db8:1234:ffff::ff:fe00:8",
+        "parent": 12,
+        "eui64": "00-12-4b-00-12-05-29-51",
+        "position": {
+            "lat": 41.8066992,
+            "lng": -72.2527563
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212157407,
+        "last_seen": 1603219634594,
+        "gateway": "UCONN_GW",
+        "_id": 18,
+        "address": "2001:db8:1234:ffff::ff:fe00:10",
+        "parent": 13,
+        "eui64": "00-12-4b-00-0c-46-c7-03",
+        "position": {
+            "lat": 41.8067082,
+            "lng": -72.2527412
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212141230,
+        "last_seen": 1603219668792,
+        "gateway": "UCONN_GW",
+        "_id": 19,
+        "address": "2001:db8:1234:ffff::ff:fe00:7",
+        "parent": 6,
+        "eui64": "00-12-4b-00-12-04-dc-2f",
+        "position": {
+            "lat": 41.8067169,
+            "lng": -72.2527278
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212423596,
+        "last_seen": 1603219687126,
+        "gateway": "UCONN_GW",
+        "_id": 20,
+        "address": "2001:db8:1234:ffff::ff:fe00:35",
+        "parent": 6,
+        "eui64": "00-12-4b-00-12-05-2a-23",
+        "position": {
+            "lat": 41.8067249,
+            "lng": -72.2527148
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212662204,
+        "last_seen": 1603219318580,
+        "gateway": "UCONN_GW",
+        "_id": 21,
+        "address": "2001:db8:1234:ffff::ff:fe00:12",
+        "parent": 17,
+        "eui64": "00-12-4b-00-13-22-a9-02",
+        "position": {
+            "lat": 41.8067337,
+            "lng": -72.2526997
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212249154,
+        "last_seen": 1603219678932,
+        "gateway": "UCONN_GW",
+        "_id": 22,
+        "address": "2001:db8:1234:ffff::ff:fe00:1f",
+        "parent": 21,
+        "eui64": "00-12-4b-00-16-65-fd-06",
+        "position": {
+            "lat": 41.8067575,
+            "lng": -72.2527211
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603219233726,
+        "last_seen": 1603219233726,
+        "gateway": "UCONN_GW",
+        "_id": 23,
+        "address": "2001:db8:1234:ffff::ff:fe00:64",
+        "parent": 20,
+        "eui64": "00-12-4b-00-0c-46-c6-87",
+        "position": {
+            "lat": 41.80675,
+            "lng": -72.25271
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603213657273,
+        "last_seen": 1603219219417,
+        "gateway": "UCONN_GW",
+        "_id": 24,
+        "address": "2001:db8:1234:ffff::ff:fe00:56",
+        "parent": 21,
+        "eui64": "00-12-4b-00-12-05-31-fc",
+        "position": {
+            "lat": 41.8067537,
+            "lng": -72.2526852
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212766272,
+        "last_seen": 1603219101539,
+        "gateway": "UCONN_GW",
+        "_id": 25,
+        "address": "2001:db8:1234:ffff::ff:fe00:62",
+        "parent": 20,
+        "eui64": "00-12-4b-00-12-05-2d-cd",
+        "position": {
+            "lat": 41.806749,
+            "lng": -72.2526929
+        },
+        "type": "SensorTag",
+        "power": "USB"
+    },
+    {
+        "first_appear": 1603212631828,
+        "last_seen": 1603219156238,
+        "gateway": "UCONN_GW",
+        "_id": 26,
+        "address": "2001:db8:1234:ffff::ff:fe00:24",
+        "parent": 16,
+        "eui64": "00-12-4b-00-0c-67-77-84",
+        "position": {
+            "lat": 41.8067244,
+            "lng": -72.2526897
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603218503491,
+        "last_seen": 1603219033365,
+        "gateway": "UCONN_GW",
+        "_id": 27,
+        "address": "2001:db8:1234:ffff::ff:fe00:39",
+        "parent": 18,
+        "eui64": "00-12-4b-00-11-a7-1a-00",
+        "position": {
+            "lat": 41.8067109,
+            "lng": -72.2526746
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603216406076,
+        "last_seen": 1603218844141,
+        "gateway": "UCONN_GW",
+        "_id": 28,
+        "address": "2001:db8:1234:ffff::ff:fe00:73",
+        "parent": 19,
+        "eui64": "00-12-4b-00-12-05-2f-a5",
+        "position": {
+            "lat": 41.8066959,
+            "lng": -72.2526582
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212858922,
+        "last_seen": 1603219674205,
+        "gateway": "UCONN_GW",
+        "_id": 29,
+        "address": "2001:db8:1234:ffff::ff:fe00:6c",
+        "parent": 18,
+        "eui64": "00-12-4b-00-0c-66-d1-03",
+        "position": {
+            "lat": 41.8066803,
+            "lng": -72.2526411
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603212268067,
+        "last_seen": 1603219673869,
+        "gateway": "UCONN_GW",
+        "_id": 30,
+        "address": "2001:db8:1234:ffff::ff:fe00:29",
+        "parent": 18,
+        "eui64": "00-12-4b-00-0c-46-c4-03",
+        "position": {
+            "lat": 41.8066643,
+            "lng": -72.2526233
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603213710711,
+        "last_seen": 1603219670203,
+        "gateway": "UCONN_GW",
+        "_id": 31,
+        "address": "2001:db8:1234:ffff::ff:fe00:4e",
+        "parent": 19,
+        "eui64": "00-12-4b-00-16-65-84-05",
+        "position": {
+            "lat": 41.8066485,
+            "lng": -72.2526059
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603215676873,
+        "last_seen": 1603219095389,
+        "gateway": "UCONN_GW",
+        "_id": 32,
+        "address": "2001:db8:1234:ffff::ff:fe00:1d",
+        "parent": 29,
+        "eui64": "00-12-4b-00-0c-64-b3-02",
+        "position": {
+            "lat": 41.8066368,
+            "lng": -72.2525928
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603217620467,
+        "last_seen": 1603219184565,
+        "gateway": "UCONN_GW",
+        "_id": 33,
+        "address": "2001:db8:1234:ffff::ff:fe00:78",
+        "parent": 30,
+        "eui64": "00-12-4b-00-13-24-17-85",
+        "position": {
+            "lat": 41.8066226,
+            "lng": -72.2526048
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603216611222,
+        "last_seen": 1603219166965,
+        "gateway": "UCONN_GW",
+        "_id": 34,
+        "address": "2001:db8:1234:ffff::ff:fe00:58",
+        "parent": 28,
+        "eui64": "00-12-4b-00-16-65-ed-03",
+        "position": {
+            "lat": 41.8066066,
+            "lng": -72.2526296
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603218291352,
+        "last_seen": 1603219051936,
+        "gateway": "UCONN_GW",
+        "_id": 35,
+        "address": "2001:db8:1234:ffff::ff:fe00:79",
+        "parent": 33,
+        "eui64": "00-12-4b-00-16-66-39-82",
+        "position": {
+            "lat": 41.8065921,
+            "lng": -72.2526517
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603218137752,
+        "last_seen": 1603219044571,
+        "gateway": "UCONN_GW",
+        "_id": 36,
+        "address": "2001:db8:1234:ffff::ff:fe00:36",
+        "parent": 34,
+        "eui64": "00-12-4b-00-0c-46-b6-87",
+        "position": {
+            "lat": 41.8065796,
+            "lng": -72.2526725
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603219493376,
+        "last_seen": 1603219677989,
+        "gateway": "UCONN_GW",
+        "_id": 37,
+        "address": "2001:db8:1234:ffff::ff:fe00:4f",
+        "parent": 11,
+        "eui64": "00-12-4b-00-07-9f-e0-83",
+        "position": {
+            "lat": 41.8065651,
+            "lng": -72.252696
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603219567669,
+        "last_seen": 1603219567669,
+        "gateway": "UCONN_GW",
+        "_id": 38,
+        "address": "2001:db8:1234:ffff::ff:fe00:5f",
+        "parent": 10,
+        "eui64": "00-12-4b-00-16-66-2c-07",
+        "position": {
+            "lat": 41.8065496,
+            "lng": -72.2527201
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603217116450,
+        "last_seen": 1603218974482,
+        "gateway": "UCONN_GW",
+        "_id": 39,
+        "address": "2001:db8:1234:ffff::ff:fe00:3e",
+        "parent": 10,
+        "eui64": "00-12-4b-00-16-65-90-87",
+        "position": {
+            "lat": 41.8065346,
+            "lng": -72.2527443
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603219623042,
+        "last_seen": 1603219623042,
+        "gateway": "UCONN_GW",
+        "_id": 40,
+        "address": "2001:db8:1234:ffff::ff:fe00:3c",
+        "parent": 9,
+        "eui64": "00-12-4b-00-12-05-27-6f",
+        "position": {
+            "lat": 41.8065236,
+            "lng": -72.2527617
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603213923845,
+        "last_seen": 1603218993923,
+        "gateway": "UCONN_GW",
+        "_id": 41,
+        "address": "2001:db8:1234:ffff::ff:fe00:16",
+        "parent": 40,
+        "eui64": "00-12-4b-00-12-05-29-5c",
+        "position": {
+            "lat": 41.8065066,
+            "lng": -72.2527548
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603216882833,
+        "last_seen": 1603219618987,
+        "gateway": "UCONN_GW",
+        "_id": 42,
+        "address": "2001:db8:1234:ffff::ff:fe00:50",
+        "parent": 40,
+        "eui64": "00-12-4b-00-0c-46-db-81",
+        "position": {
+            "lat": 41.8065198,
+            "lng": -72.2527334
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603217005528,
+        "last_seen": 1603219597853,
+        "gateway": "UCONN_GW",
+        "_id": 43,
+        "address": "2001:db8:1234:ffff::ff:fe00:6d",
+        "parent": 39,
+        "eui64": "00-12-4b-00-12-04-e0-c0",
+        "position": {
+            "lat": 41.8065355,
+            "lng": -72.2527073
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603217362380,
+        "last_seen": 1603219686007,
+        "gateway": "UCONN_GW",
+        "_id": 44,
+        "address": "2001:db8:1234:ffff::ff:fe00:2e",
+        "parent": 38,
+        "eui64": "00-12-4b-00-16-66-34-01",
+        "position": {
+            "lat": 41.8065482,
+            "lng": -72.2526859
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603213324734,
+        "last_seen": 1603219667543,
+        "gateway": "UCONN_GW",
+        "_id": 45,
+        "address": "2001:db8:1234:ffff::ff:fe00:61",
+        "parent": 40,
+        "eui64": "00-12-4b-00-12-05-29-f4",
+        "position": {
+            "lat": 41.8064941,
+            "lng": -72.2527411
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603217740436,
+        "last_seen": 1603219614990,
+        "gateway": "UCONN_GW",
+        "_id": 46,
+        "address": "2001:db8:1234:ffff::ff:fe00:68",
+        "parent": 39,
+        "eui64": "00-12-4b-00-12-05-31-ca",
+        "position": {
+            "lat": 41.8065073,
+            "lng": -72.2527189
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603219563530,
+        "last_seen": 1603219563530,
+        "gateway": "UCONN_GW",
+        "_id": 47,
+        "address": "2001:db8:1234:ffff::ff:fe00:55",
+        "parent": 38,
+        "eui64": "00-12-4b-00-12-05-27-22",
+        "position": {
+            "lat": 41.8065225,
+            "lng": -72.2526929
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603218547194,
+        "last_seen": 1603218833844,
+        "gateway": "UCONN_GW",
+        "_id": 48,
+        "address": "2001:db8:1234:ffff::ff:fe00:7b",
+        "parent": 37,
+        "eui64": "00-12-4b-00-0c-65-c6-81",
+        "position": {
+            "lat": 41.8065342,
+            "lng": -72.2526708
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603214119483,
+        "last_seen": 1603219660102,
+        "gateway": "UCONN_GW",
+        "_id": 49,
+        "address": "2001:db8:1234:ffff::ff:fe00:52",
+        "parent": 39,
+        "eui64": "00-12-4b-00-0d-6b-22-83",
+        "position": {
+            "lat": 41.8064821,
+            "lng": -72.2527277
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    },
+    {
+        "first_appear": 1603216923555,
+        "last_seen": 1603219084822,
+        "gateway": "UCONN_GW",
+        "_id": 50,
+        "address": "2001:db8:1234:ffff::ff:fe00:42",
+        "parent": 38,
+        "eui64": "00-12-4b-00-11-a7-17-86",
+        "position": {
+            "lat": 41.8064958,
+            "lng": -72.2527059
+        },
+        "type": "SensorTag",
+        "power": "battery"
+    }
+]

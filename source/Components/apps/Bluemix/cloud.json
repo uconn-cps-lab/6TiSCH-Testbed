@@ -1,0 +1,11 @@
+{
+    "host":"webproxy.ext.ti.com",
+    "port":80,
+    "path":"http://fengmoapp2.mybluemix.net/sites",
+    "data":{
+        "name":"Feng's desk'",
+        "address":"http://i3-kilby.sc.ti.com/",
+        "gps":[ 32.925167, -96.757725 ],
+        "color":"#FF0000"
+    }
+}

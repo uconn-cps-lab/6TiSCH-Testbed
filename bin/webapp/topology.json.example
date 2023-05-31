@@ -1,0 +1,158 @@
+{
+    "00-12-4b-00-07-a9-13-87": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-64-b3-02": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-66-fe-84": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-66-c7-83",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-a9-18-00": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-07-a8-1e-07",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-66-d1-03": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-a7-ff-87": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-07-a8-1e-07",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-a8-1e-07": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-a8-29-02": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-07-bb-8a-02",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-61-f1-83": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-65-87-00",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-65-87-00": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-a9-01-81": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-a7-fc-87": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-07-a9-13-87",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-67-01-82": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-66-d1-03",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-65-8a-86": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-65-d8-01",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "gateway": {
+        "uplink": 0,
+        "parent": null,
+        "downlink": 0,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-66-1a-06": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-65-87-00",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-65-a0-86": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-65-d8-01",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-9f-e0-83": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-07-a9-13-87",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-bb-8a-02": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-07-9f-e0-83",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-61-e7-85": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-66-1a-06",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-65-c6-81": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-67-01-82",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-07-bb-55-87": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-65-87-00",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-67-2e-87": {
+        "uplink": 1,
+        "parent": "00-12-4b-00-0c-65-d8-01",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-66-c7-83": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-65-d8-01": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    },
+    "00-12-4b-00-0c-67-77-84": {
+        "uplink": 1,
+        "parent": "gateway",
+        "downlink": 1,
+        "beacon": 1
+    }
+}

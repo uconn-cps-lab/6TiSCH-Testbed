@@ -1,0 +1,650 @@
+[
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 29,
+        "receiver": 18
+    },
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 3
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 15,
+        "receiver": 8
+    },
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 4
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 37,
+        "receiver": 11
+    },
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 5
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 22,
+        "receiver": 21
+    },
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 6
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 25,
+        "receiver": 20
+    },
+    {
+        "slot": {
+            "slot_offset": 6,
+            "channel_offset": 7
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 45,
+        "receiver": 40
+    },
+    {
+        "slot": {
+            "slot_offset": 7,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 32,
+        "receiver": 29
+    },
+    {
+        "slot": {
+            "slot_offset": 7,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 47,
+        "receiver": 38
+    },
+    {
+        "slot": {
+            "slot_offset": 7,
+            "channel_offset": 3
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 9,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 8,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 11,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 8,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 10,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 11,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 10,
+            "channel_offset": 3
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 21,
+        "receiver": 17
+    },
+    {
+        "slot": {
+            "slot_offset": 10,
+            "channel_offset": 4
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 40,
+        "receiver": 9
+    },
+    {
+        "slot": {
+            "slot_offset": 14,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 18,
+        "receiver": 13
+    },
+    {
+        "slot": {
+            "slot_offset": 14,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 17,
+        "receiver": 12
+    },
+    {
+        "slot": {
+            "slot_offset": 16,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 18,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 18,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 20,
+        "receiver": 6
+    },
+    {
+        "slot": {
+            "slot_offset": 19,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 29,
+        "receiver": 18
+    },
+    {
+        "slot": {
+            "slot_offset": 19,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 38,
+        "receiver": 10
+    },
+    {
+        "slot": {
+            "slot_offset": 19,
+            "channel_offset": 3
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 20,
+        "receiver": 6
+    },
+    {
+        "slot": {
+            "slot_offset": 22,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 12,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 26,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 28,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 32,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 10,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 35,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 13,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 36,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 38,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 39,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 9,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 43,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 6,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 44,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 18,
+        "receiver": 13
+    },
+    {
+        "slot": {
+            "slot_offset": 46,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 48,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 56,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 29,
+        "receiver": 18
+    },
+    {
+        "slot": {
+            "slot_offset": 56,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 15,
+        "receiver": 8
+    },
+    {
+        "slot": {
+            "slot_offset": 56,
+            "channel_offset": 3
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 37,
+        "receiver": 11
+    },
+    {
+        "slot": {
+            "slot_offset": 56,
+            "channel_offset": 7
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 57,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 13,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 58,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 60,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 18,
+        "receiver": 13
+    },
+    {
+        "slot": {
+            "slot_offset": 66,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 68,
+            "channel_offset": 7
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 69,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 6,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 73,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 8,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 72,
+            "channel_offset": 2
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 11,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 76,
+            "channel_offset": 7
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 78,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 81,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 13,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 86,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 88,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 96,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 3,
+        "receiver": 1
+    },
+    {
+        "slot": {
+            "slot_offset": 98,
+            "channel_offset": 1
+        },
+        "subslot": {
+            "offset": 0,
+            "period": 1
+        },
+        "sender": 4,
+        "receiver": 1
+    }
+]

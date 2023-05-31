@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\coap-cc26xx\CoAP.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lib-gen\lib-gen.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\simple-udp-cc13xx\simple-udp.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\simple-udp-cc26xxx\simple-udp.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\tsch-LMAC-cc26xx\tsch-LMAC.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\tsch-LMAC-cc13xx\tsch-LMAC-13xx.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\tsch-only-cc13xx\tsch-only.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\tsch-only-cc26xx\tsch-only.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

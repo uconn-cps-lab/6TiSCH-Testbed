@@ -1,0 +1,16 @@
+{
+    "host":"i3.sc.ti.com",
+    "port":80,
+    "path":"/sites",
+    "data":{
+        "name":"UCONN_GW",
+        "address":"http://i3-kilby.sc.ti.com/",
+        "gps":[ 32.925167, -96.757725 ],
+        "color":"#FF0000"
+    },
+	"dataCenter":{
+		"host":"tiibmcloud.mybluemix.net",
+		"port":80,
+		"path":"http://tiibmcloud.mybluemix.net/uconn"
+	}
+}

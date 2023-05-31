@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+
+<style>
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+</style>
+<script>
+$(document).ready(function(){
+    $.get("/schedule_old", function( data ) {
+        $( "#schedule" ).html( data );
+    });
+    $("#setnode").click(function(){
+        $.get("/schedule/"+$("#nodeid").val(), function( data ) {
+            $( "#schedule" ).html( data );
+        });
+    })
+})
+</script>
+</head>
+<body>
+	<div><input id="nodeid"/><button id="setnode">Set</button></div>
+<div id="schedule">
+</div>
+</body>
+</html>

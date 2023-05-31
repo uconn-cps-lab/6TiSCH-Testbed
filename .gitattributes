@@ -1,0 +1,6 @@
+sdks/ccs-2652-tsch-root-build1.PNG filter=lfs diff=lfs merge=lfs -text
+sdks/ccs-2652-tsch-root-build2.PNG filter=lfs diff=lfs merge=lfs -text
+sdks/simplelink_cc13x2_sdk_2_10_00_48.exe filter=lfs diff=lfs merge=lfs -text
+sdks/simplelink_cc26x2_sdk_2_30_00_34.exe filter=lfs diff=lfs merge=lfs -text
+sdks/tirtos_cc13xx_cc26xx_setupwin32_2_21_00_06.exe filter=lfs diff=lfs merge=lfs -text
+sdks/xdctools_3_32_00_06_core_win32.zip filter=lfs diff=lfs merge=lfs -text

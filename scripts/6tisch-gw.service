@@ -1,0 +1,14 @@
+[Unit]
+Description=6TiSCH gateway service
+After=network.target
+
+[Service]
+Type=forking
+Restart=false
+User=ubuntu
+ExecStart=/home/ubuntu/GWstart.sh
+ExecStop=/home/ubuntu/GWstop.sh
+ExecReload=/home/ubuntu/GWstop.sh && /home/ubuntu/GWstart.sh
+
+[Install]
+WantedBy=multi-user.target
